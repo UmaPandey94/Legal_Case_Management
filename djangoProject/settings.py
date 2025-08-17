@@ -28,7 +28,9 @@ SITE_ID = 1
 
 ALLOWED_HOSTS = ['https://legal-case-management.onrender.com', '*']
 
-CSRF_TRUSTED_ORIGINS = ['https://legal-case-management.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://legal-case-management.onrender.com',
+                        'http://legal-case-management.onrender.com'
+                       ]
 
 # Application definition
 

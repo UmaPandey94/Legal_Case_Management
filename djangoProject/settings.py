@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-&r^qatb7=!fk#yp88i3y^j_&^w3wee#k9u=hb^ake+^ywu9n0j
 DEBUG = True
 SITE_ID = 1
 
-ALLOWED_HOSTS = ['https://legal-case-management.onrender.com', '*']
+ALLOWED_HOSTS = ['https://legal-case-management.onrender.com', 'localhost','127.0.0.1']
+
+CSRF_TRUSTED_ORIGINS = ['https://legal-case-management.onrender.com']
 
 # Application definition
 
@@ -152,6 +154,4 @@ if not DEBUG:
     # and renames the files with unique names for each version to support long-term caching
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://legal-case-management.onrender.com',
-]
+

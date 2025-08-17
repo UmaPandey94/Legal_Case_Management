@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&r^qatb7=!fk#yp88i3y^j_&^w3wee#k9u=hb^ake+^ywu9n0j
 DEBUG = True
 SITE_ID = 1
 
-ALLOWED_HOSTS = ['https://legal-case-management.onrender.com', 'localhost','127.0.0.1']
+ALLOWED_HOSTS = ['https://legal-case-management.onrender.com', '*']
 
 CSRF_TRUSTED_ORIGINS = ['https://legal-case-management.onrender.com']
 

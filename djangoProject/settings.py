@@ -153,5 +153,5 @@ if not DEBUG:
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CSRF_TRUSTED_ORIGINS = [
-    
+    'https://legal-case-management.onrender.com',
 ]
